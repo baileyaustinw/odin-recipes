@@ -1,14 +1,41 @@
+* {
+    box-sizing: border-box;
+}
+
 body {
-    background-color: #fff;
+    background-color: lightskyblue;
     color: #000;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
-h1 {
-    font-family: 'Courier New', Courier, monospace;
-    font-size: 3em;
+.card {
+    width: 500px;
+    background-color: white;
+    margin: 5em auto;
+    border: solid #f6f6f6 1px;
+    border-radius: 3px;
+    padding: 1em;
+    box-shadow: 0px 0px 15px 2px #f6f6f6;
 }
 
-ul li {
-    font-size: 1.5em;
-    list-style-type: armenian;
+.card h1 {
+    font-size: 38px;
+    text-align: center;
+    border-bottom: solid 1px darkgray;
+}
+
+.card ul {
+    margin-left: 0;
+}
+
+.card ul li {
+    margin-bottom: 8px;
+}
+
+.card ul li:last-of-type {
+    margin-bottom: 0;
+}
+
+.card ul li a {
+    text-decoration: none;
 }
